@@ -10,7 +10,7 @@ function upgrade(){
         click = click - check;
         count.innerHTML = click;
         up = up + 1;
-        check = check*10;
+        check = check*2;
         upgradeID.innerHTML = up+1;
         cost.innerHTML = check;
     }
