@@ -50,3 +50,6 @@ body {
     text-align: center;
 }
 
+#friends img {
+    width: 100px;
+}
