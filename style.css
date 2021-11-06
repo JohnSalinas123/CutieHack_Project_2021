@@ -9,6 +9,17 @@ body {
     background-size: cover;
 }
 
+#buttonBackground {
+    background-image: url(cutie_crate.png);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+#upgrade {
+   padding: 20px;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -18,6 +29,13 @@ body {
     width: auto;
     height: auto;
     
+}
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 #title {
