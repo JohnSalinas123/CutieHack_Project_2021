@@ -21,4 +21,7 @@ function upgrade(){
         var cutiefriends = document.getElementById("friends");
         cutiefriends.innerHTML +='<img src="cutie.png" alt="a cutie friend" id="cutie">';
     }
+    else{
+        document.getElementById("cutie").src = "cutiesad.png";
+    }
 }
