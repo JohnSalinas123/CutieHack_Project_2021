@@ -4,6 +4,11 @@ var check = 10;
 function clicked(){
     click = click + up + 1;
     count.innerHTML = click;
+    document.getElementById("cutie").src = "cutieclicked.png";
+}
+
+function clickup(){
+    document.getElementById("cutie").src = "cutie.png";
 }
 function upgrade(){
     if (click > check){
