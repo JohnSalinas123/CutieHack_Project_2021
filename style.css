@@ -48,6 +48,10 @@ body {
 
 .centerText {
     text-align: center;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(114, 114, 114);
+    font-weight: bold;
 }
 
 #friends img {
